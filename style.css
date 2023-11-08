@@ -1,0 +1,103 @@
+/* Reset default margin and padding */
+
+@import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Kalam:wght@400;700&display=swap");
+
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: "Edu TAS Beginner", cursive;
+  font-family: "Kalam", cursive;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: rgb(61, 44, 155);
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+img {
+  width: 200px;
+  border-radius: 50%;
+
+  outline: 3px rgb(11, 6, 94) solid;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 45px;
+}
+
+nav {
+  outline: 3px solid;
+  background-color: rgb(11, 6, 94);
+  justify-content: end;
+  text-align: right;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#about {
+  background-image: url(img/langit.jpg);
+  background-attachment: fixed;
+  background-size: contain;
+}
+
+#about h2 {
+  font-size: 45px;
+}
+
+#about p {
+  font-size: 30px;
+}
+
+#about img {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+#contact {
+  background-color: #e6e6e6;
+  text-align: start;
+}
+
+#contact h2 {
+  font-size: 30px;
+}
+
+#contact p {
+  font-size: 20px;
+}
